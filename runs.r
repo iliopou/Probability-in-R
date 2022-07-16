@@ -1,10 +1,5 @@
-#### Vasileios Iliopoulos 
-
-#### This script addresses Question 2. 
-
 #' title: "runs-report"
 #' author: "Vasileios Iliopoulos"
-#' date: "07/07/2022"
 
 # Part (a)
 
