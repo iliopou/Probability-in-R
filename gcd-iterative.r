@@ -1,18 +1,13 @@
 gcd <- function(x,y) 
 {
- if (y==0) {return(x)}
-  
-  else
-  {  
-    while(y!=0) 
+  while(y!=0) 
 	{
     r<-x%%y;
     x<-y;
     y<-r;
-    }
+        }
      return(x)
   }
-}
 
 
 num1 = as.integer(readline(prompt = "Enter first number: "))
