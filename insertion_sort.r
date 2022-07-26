@@ -1,4 +1,4 @@
-insertion_sort<- function(A){
+insertion_sort <- function(A) {if (length(A) > 1) {
   for (j in 2:length(A)) {
     key  <- A[j] 
     i <- j - 1 
@@ -8,6 +8,7 @@ insertion_sort<- function(A){
     }
     A[(i + 1)] <- key
   }
+ }
  return(A)                               # In place sorting
 }
 
